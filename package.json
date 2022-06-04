@@ -1,0 +1,23 @@
+{
+  "name": "gaemin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run-p server watch",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "server" : "live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.14"
+  }
+}
